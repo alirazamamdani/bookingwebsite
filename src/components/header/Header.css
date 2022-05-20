@@ -11,6 +11,9 @@
 
   margin: 20px 0 100px 0;
 }
+.headerContainer.listmode {
+  margin: 20px 0 0 0;
+}
 .headerList {
   display: flex;
   gap: 40px;
@@ -86,13 +89,15 @@
   width: 200px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .optionCounterButton {
   width: 25px;
+  height: 25px;
   border: none;
   background-color: #0071c2;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 2px;
   cursor: pointer;
 }
 .optionCounterButton:disabled {
@@ -100,6 +105,7 @@
 }
 .optionsContainer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 10px;
   color: #000;
