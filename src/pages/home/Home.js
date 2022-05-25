@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import Feature from "../../components/featured/Feature";
 import Header from "../../components/header/Header";
 import Navbar from "../../components/Navbar/Navbar";
 import "./home.css";
@@ -8,6 +9,9 @@ const Home = () => {
     <Fragment>
       <Navbar />
       <Header />
+      <div className="HomeContainer">
+        <Feature />
+      </div>
     </Fragment>
   );
 };
