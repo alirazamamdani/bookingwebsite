@@ -1,8 +1,22 @@
-.HomeContainer {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+.FeaturedContainer {
+  max-width: 1024px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.FeatureItem  {
+  width: 500px;
+  display: flex;
+  object-fit: cover;
+  flex-direction: column;
+}
+.FeatureItem img {
+  width: 100%;
+  height: 100%;
+}
+.FeatureTitle {
+  display: flex;
+  flex-direction: column;
 }
